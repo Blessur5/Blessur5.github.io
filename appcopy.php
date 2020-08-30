@@ -1,31 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>InternetPostTest</title>
-</head>
 <body>
 
 <h1>Second page</h1>
-<p id="demo">Keep testing.</p>
-<button type="button" onclick="myFunction("red")">Click me to change text colour to red!</button>
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
 
-<?php echo $_POST["Username"]; ?><br>
+<?php 
+echo $_POST["submit"]; 
+?>
   
-  
-<nav>
-  <ul>
-    <li><a href="#">Navigation</a></li>
-    <li><a href="#">Menu</a></li>
-    <li><a href="#">Links</a></li>
-  </ul>
-</nav>
-
-<script>
-function myFunction(colour) {
-  document.getElementById("demo").style.color = colour;
-}
-</script>
 
 </body>
 </html>
