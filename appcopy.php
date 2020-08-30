@@ -5,7 +5,7 @@
 <h1>Second page</h1>
 
 <?php 
-echo $_POST["submit"]; 
+echo $_POST["Username"]; 
 ?>
   
 
